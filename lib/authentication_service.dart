@@ -18,6 +18,7 @@ class AuthenticationService{
       return "Signed in";
     } on FirebaseAuthException catch (e){
       return e.message;
+      
     }
   }
 
